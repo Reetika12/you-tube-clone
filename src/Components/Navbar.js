@@ -14,11 +14,12 @@ function Navbar() {
         background: "#FAF9F6",
         top: 0,
         justifyContent: "space-between",
+        pointer: "cursor",
       }}
     >
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
         <img src={logo} alt="logo" height={45} />
-        <div style={{ marginLeft: "10px" }}>Rephrase.ai</div>
+        <div style={{ marginLeft: "10px" }}>My tube</div>
       </Link>
       <SearchBar />
     </Stack>

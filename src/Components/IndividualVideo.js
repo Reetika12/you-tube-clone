@@ -36,6 +36,7 @@ function IndividualVideo() {
       <video
         className="individualHover"
         controls
+        autoPlay
         type="video/mp4"
         onMouseOver={(e) => playVideo(e)}
         onMouseOut={(e) => stopVideo(e)}
